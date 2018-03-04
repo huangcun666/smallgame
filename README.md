@@ -1,20 +1,24 @@
 # smallgame
-python制作自动玩回转寿司小游戏
-屏幕分辨率为1366x768，其他分辨率可能不能识别
+python制作自动玩回转寿司小游戏<br>
 
-主要使用PIL、pyautogui、threading
+屏幕分辨率为1366x768，其他分辨率可能不能识别<br>
 
-游戏：
-一二步都不要放大缩小移动游戏界面，不然需要重新定位
-第一步：获取图像位置
+主要使用PIL、pyautogui、threading<br>
 
-跳过使用教程，需要在六位顾客都出现时运行dist\getpositon\getpositon.exe运行文件
+游戏：http://www.7k7k.com/swf/57115.htm#play-gamne-title <br>
 
-<div align=center><img src="https://github.com/huangcun666/smallgame/position.png" width="150" height="150" alt="图片加载失败时，显示这段字"/></div>
+一二步都不要放大缩小移动游戏界面，不然需要重新定位<br>
 
-第二步：点击重玩，开始游戏
-跳过使用教程，开始后运行dist\game\game.exe运行文件 
-<div align=center><img src="https://github.com/huangcun666/smallgame/game.png"
- width="150" height="150" alt="图片加载失败时，显示这段字"/></div>
+第一步：获取图像位置<br>
 
+跳过使用教程，开始后运行python3 getpositon.py<br>
+
+<div align=center><img src="https://github.com/huangcun666/smallgame/blob/master/positon.png" width="500" height="300" alt="图片加载失败时，显示这段字"/></div><br>
+
+第二步：点击重玩，开始游戏<br>
+
+跳过使用教程，开始后运行python3 game.py<br>
+
+<div align=center><img src="https://github.com/huangcun666/smallgame/blob/master/game.png" width="500" height="300" alt="图片加载失败时，显示这段字"/></div><br>
+ 
  能以高分通关，只制作了第一关
