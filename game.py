@@ -3,7 +3,7 @@ from numpy.ma import array
 import pyautogui,re,time,threading
 
 positions=open('allpositions.txt')
-bigbix=[]
+bigbix=[]#用于存储位置
 for line in positions.readlines():
     if re.search(r'\(.*?\)', line) is None:
         continue
@@ -23,11 +23,11 @@ allfoodkinds= \
         'salmon':5,
         'unagi':5}
 
-boolen=[]
+boolen=[]#用于防止重复制做
 for i in range(6):
     boolen.append(True)
 
-repetition=[]
+repetition=[]#用于防止创建重复的线程
 for j in range(6):
     repetition.append(False)
 
@@ -82,7 +82,7 @@ def get_onetable():
     a=a.sum()
     return a
 
-def clear_tables():
+def clear_tables():#清理桌面
     pyautogui.click(bigbix[8])
     pyautogui.click(bigbix[10])
     pyautogui.click(bigbix[11])
@@ -175,7 +175,7 @@ def check_food():
                 buy_food(i)
                 print('购买完成')
 
-def changetotrue(i):
+def changetotrue(i):#为该顾客制作后一定时间不在制作
     time.sleep(14)
     repetition[i]=False
     boolen[i] = True
@@ -193,7 +193,7 @@ def check_seat():
     s1=get_seat_1()
     if s1 in sushistyle.keys() and boolen[0]==True:
         check_food()
-        makefood(sushistyle[s1])
+        makefood(sushistyle[s1])#制作食物
         boolen[0]=False
     clear_tables()
 
