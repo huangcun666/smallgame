@@ -1,7 +1,7 @@
 # smallgame
 python制作自动玩回转寿司小游戏<br>
 
-屏幕分辨率为1366x768，其他分辨率可能不能识别<br>
+屏幕分辨率为1366x768的电脑上都能识别图片，其他分辨率可能不能识别<br>
 
 主要使用PIL、pyautogui、threading<br>
 
@@ -21,4 +21,7 @@ python制作自动玩回转寿司小游戏<br>
 
 <div align=center><img src="https://github.com/huangcun666/smallgame/blob/master/game.png" width="500" height="300" alt="图片加载失败时，显示这段字"/></div><br>
  
- 能以高分通关，只制作了第一关
+ 能以高分通关，只制作了第一关<br>
+ 提前退出，滚动下鼠标
+ 
+ 
