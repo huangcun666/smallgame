@@ -17,7 +17,7 @@ python制作自动玩回转寿司小游戏<br>
 
 第二步：点击重玩，开始游戏<br>
 
-跳过使用教程，开始后运行python3 game.py<br>
+跳过使用教程，开始后有六个顾客时运行python3 game.py<br>
 
 <div align=center><img src="https://github.com/huangcun666/smallgame/blob/master/game.png" width="500" height="300" alt="图片加载失败时，显示这段字"/></div><br>
  
